@@ -2,7 +2,7 @@
 
 <div ng-repeat="doctor in doctors">
 
-  <h2>Doctor: <a href="#!/doctor/{{doctor.doctor_id}}">{{doctor.first_name}} {{doctor.last_name}}</a></h2>
+  <h2>Doctor: <a ng-click="seePatients(doctor.doctor_id)">{{doctor.first_name}} {{doctor.last_name}}</a></h2>
   <h3>Specialty: {{doctor.speciality}}</h3>
 
 
