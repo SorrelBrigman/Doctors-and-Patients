@@ -87,3 +87,11 @@ const app = angular
     } //end of object
 
   }) //end of factory
+  .factory('restFactory',($http)=>{
+    return {
+      getRestPatients : (val) => {
+        return $http
+        .get(`https://doctorsandpatients-34f3e.firebaseio.com/.json`)
+      } // end of function
+    }//end of object
+  })//end of factory
