@@ -1,0 +1,51 @@
+{
+    "doctors": [
+        {
+            "killigrew": {
+                "first_name": "Johan",
+                "last_name": "Killigrew",
+                "speciality": "Pediatrics"
+            }
+        },
+        {
+            "johnson": {
+                "first_name": "Steven",
+                "last_name": "Johnson",
+                "speciality": "General Practice"
+            }
+        },
+        {
+            "brainard": {
+                "first_name": "Kameron",
+                "last_name": "Brainard",
+                "speciality": "Midwifery"
+            }
+        }
+    ],
+    "patients": [
+        {
+            "svenson": {
+                "first_name": "Margot",
+                "last_name": "Svenson",
+                "ailment": "Arthritis",
+                "doctor_id": "killigrew"
+            }
+        },
+        {
+            "green": {
+                "first_name": "Salley",
+                "last_name": "Green",
+                "ailment": "IBS",
+                "doctor_id": "brainard"
+            }
+        },
+        {
+            "furtz": {
+                "first_name": "Bob",
+                "last_name": "Furtz",
+                "ailment": "warts",
+                "doctor_id": "johnson"
+            }
+        }
+    ]
+}
